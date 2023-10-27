@@ -1,0 +1,11 @@
+server: 
+  port: 8888
+  servlet: 
+    context-path: /service-wav
+spring:
+  application:
+    name: service-wav
+  servlet:
+    multipart:
+      max-file-size: 1024MB 
+      max-request-size: 2048MB    
